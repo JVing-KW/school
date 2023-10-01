@@ -7,7 +7,7 @@ public class RequireCalc implements Calc {
 
 	@Override
 	public void grade() {
-		if (sub instanceof RequiredSub) {
+		 
 			if (score <= 95) {
 				grade = "S";
 			} else if (score <= 90 || score < 94) {
@@ -26,6 +26,6 @@ public class RequireCalc implements Calc {
 				grade = "F";
 
 			}	
-	}
+	
 	}
 }
