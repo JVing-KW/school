@@ -1,20 +1,27 @@
 package school;
 
 public class Subject {
-	
-	String stunName;
+	Student stu1 = new Student();
+
+	int stuNumber;
 	String subName;
 	int score;
+
 	public Subject() {
 	}
-	
-	public Subject(String stunName, String subName, int score) {
-		this.stunName = stunName;
+
+	public Subject(String subName) {
 		this.subName = subName;
-		this.score = score;
+	}
+
+
+	void addScore(int stuNumber, String subName, int score) {
+		
 	}
 	
 
 	
 
-}
+	}
+
+
